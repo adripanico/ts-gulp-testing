@@ -61,9 +61,9 @@ Starting TypeScript Definition manager for DefinitelyTyped:
 
     tsd init
 
-## Gulp the watchdog
+## Gulp -> the watchdog
 
-    gulp watch
+    gulp
 
 Enjoy!
 
