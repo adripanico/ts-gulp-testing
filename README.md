@@ -1,9 +1,3 @@
-<style text="text/css">
-  img, a:link, a:hover, a:visited, a:active {
-    border: 0;
-  }
-</style>
-
 <p align="center">
   <a target="_blank" href="http://gulpjs.com" style="padding-right: 10px;">
     <img height="100" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
