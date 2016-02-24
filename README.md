@@ -1,11 +1,16 @@
+<style text="text/css">
+  img, a:link, a:hover, a:visited, a:active {
+    border: 0;
+  }
+</style>
+
 <p align="center">
-  <a target="_blank" href="http://gulpjs.com">
-    <img height="100" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" style="border: 0;" />
+  <a target="_blank" href="http://gulpjs.com" style="padding-right: 10px;">
+    <img height="100" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
 
   </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="http://www.typescriptlang.org/">
-      <img height="50" src="http://www.typescriptlang.org/content/images/logo_small.png" style="border: 0;" />
+      <img height="50" src="http://www.typescriptlang.org/content/images/logo_small.png" />
   </a>
 </p>
 
