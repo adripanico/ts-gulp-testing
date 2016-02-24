@@ -1,11 +1,11 @@
 <p align="center">
   <a target="_blank" href="http://gulpjs.com">
-    <img height="100" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
+    <img height="100" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" style="border: 0;" />
 
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a target="_blank" href="http://www.typescriptlang.org/">
-      <img height="50" src="http://www.typescriptlang.org/content/images/logo_small.png" />
+      <img height="50" src="http://www.typescriptlang.org/content/images/logo_small.png" style="border: 0;" />
   </a>
 </p>
 
