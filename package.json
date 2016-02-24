@@ -1,0 +1,30 @@
+{
+  "name": "ts-gulp-testing",
+  "version": "1.0.0",
+  "description": "Simple test for TypeScript and Gulp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://adrian@code.epiclabs.io:33028/scm/~adrian/ts-gulp-testing.git"
+  },
+  "keywords": [
+    "gulp",
+    "typescript",
+    "node",
+    "js"
+  ],
+  "author": "Adrián Caballero <adrian@epiclabs.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-typescript": "^2.12.0"
+  }
+}
