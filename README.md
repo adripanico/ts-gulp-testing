@@ -1,3 +1,5 @@
+## *Currently not working!
+
 <p align="center">
   <a target="_blank" href="http://gulpjs.com" style="padding-right: 10px;">
     <img height="100" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" />
@@ -29,6 +31,7 @@ Based on [Practical TypeScript Development with Gulp and Sublime Text 3][1]
         npm install -g gulp-cli
         npm install -g gulp
         npm install -g gulp-typescript
+        npm install gulp-uglify
 
 4. TSD
 
@@ -47,9 +50,9 @@ As we can read on [Gulp's *Getting started* documentation][4], we need to instal
 
     npm install gulp gulp-typescript gulp-nodemon --save-dev
 
-, and for automatically browser refreshing:
+, and for automatically browser refreshing and other features:
 
-    npm install browser-sync --save-dev
+    npm install browser-sync run-sequence --save-dev
 
 Starting TypeScript Definition manager for DefinitelyTyped:
 
