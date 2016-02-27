@@ -5,9 +5,10 @@
 // BASE SETUP
 // =============================================================================
 import express    = require('express');
-var app        = express();
 import path       = require('path');
 import bodyParser = require('body-parser');
+
+var app        = express();
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST

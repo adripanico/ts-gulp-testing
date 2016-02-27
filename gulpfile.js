@@ -1,12 +1,12 @@
 'use strict';
 
 var gulp        = require('gulp');
-var browserSync = require('browser-sync');
-var nodemon     = require('gulp-nodemon');
 var runSequence = require('run-sequence').use(gulp);
 var ts          = require('gulp-typescript');
-var uglify      = require('gulp-uglify');
 var sourcemaps  = require('gulp-sourcemaps');
+var uglify      = require('gulp-uglify');
+var nodemon     = require('gulp-nodemon');
+var browserSync = require('browser-sync');
 
 var port = process.env.PORT || 1333;
 
@@ -61,7 +61,7 @@ gulp.task('build-server-ts', function () {
             target: 'es5'
         })).js
         .pipe(sourcemaps.init())
-        /*.pipe(uglify())*/
+        .pipe(uglify())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/'));
 });
